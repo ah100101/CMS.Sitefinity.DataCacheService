@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using SiteStack.Sitefinity.CacheService.Services.Abstract;
+using CMS.Sitefinity.CacheService.Services.Abstract;
 using Telerik.Microsoft.Practices.EnterpriseLibrary.Caching;
 using Telerik.Sitefinity.Data;
 using Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.Expirations;
 using Telerik.Sitefinity.Services;
 using Telerik.Microsoft.Practices.EnterpriseLibrary.Logging;
-using SiteStack.Sitefinity.CacheService.Data.Abstract;
+using CMS.Sitefinity.CacheService.Data.Abstract;
 
-namespace SiteStack.Sitefinity.CacheService.Services.Generic
+namespace CMS.Sitefinity.CacheService.Services.Generic
 {
     /// <summary>
     /// Service that stores and retrieves Sitefinity data from the global site cache
@@ -20,7 +20,7 @@ namespace SiteStack.Sitefinity.CacheService.Services.Generic
     {
         #region Members Variables
 
-        private int _expirationMinutes = 60;
+        private int expirationMinutes = 60;
         private object itemLock = new object();
 
         #endregion
@@ -49,12 +49,12 @@ namespace SiteStack.Sitefinity.CacheService.Services.Generic
         {
             get
             {
-                return _expirationMinutes;
+                return expirationMinutes;
             }
 
             set
             {
-                _expirationMinutes = value;
+                expirationMinutes = value;
             }
         }
 
@@ -1028,7 +1028,7 @@ namespace SiteStack.Sitefinity.CacheService.Services.Generic
         /// </summary>
         public CacheDataService()
         {
-            _expirationMinutes = 60;
+            expirationMinutes = 60;
         }
 
         /// <summary>
@@ -1037,7 +1037,7 @@ namespace SiteStack.Sitefinity.CacheService.Services.Generic
         /// <param name="expirationMinutes"></param>
         public CacheDataService(int expirationMinutes)
         {
-            _expirationMinutes = expirationMinutes;
+            this.expirationMinutes = expirationMinutes;
         }
 
         #endregion

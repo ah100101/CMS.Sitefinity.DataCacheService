@@ -1,11 +1,11 @@
-﻿using SiteStack.Sitefinity.CacheService.Data.Abstract;
+﻿using CMS.Sitefinity.CacheService.Data.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SiteStack.Sitefinity.CacheService.Services.Abstract
+namespace CMS.Sitefinity.CacheService.Services.Abstract
 {
     /// <summary>
     /// Interface for implementing a data service that caches Sitefinity content items

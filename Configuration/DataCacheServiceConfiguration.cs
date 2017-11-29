@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Telerik.Sitefinity.Configuration;
 
-namespace SiteStack.Sitefinity.CacheService.Configuration
+namespace CMS.Sitefinity.CacheService.Configuration
 {
     public class CacheServiceConfiguration : ConfigSection
     {

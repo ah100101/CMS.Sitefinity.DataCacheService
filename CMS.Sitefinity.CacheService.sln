@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteStack.Sitefinity.CacheService", "SiteStack.Sitefinity.CacheService.csproj", "{5A826E38-71E8-480C-9551-0CBC1E123835}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Sitefinity.CacheService", "CMS.Sitefinity.CacheService.csproj", "{5A826E38-71E8-480C-9551-0CBC1E123835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

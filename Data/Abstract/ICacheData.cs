@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace SiteStack.Sitefinity.CacheService.Data.Abstract
+namespace CMS.Sitefinity.CacheService.Data.Abstract
 {
     /// <summary>
     /// CacheableData interface for use with ICacheableDataService. CacheableDataService requires objects being cached to implement ICacheableData

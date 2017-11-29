@@ -201,16 +201,9 @@ This service was built in response to various and frequent Sitefinity projects r
 Sitefinity only provides options for caching content on the page level (when the page is rendered to the user) through the page output cache.  
 This cache service gives the programmer flexibility to use Sitefinity's CacheManager for caching queried results for data that is used frequently in many places or high traffic pages.
 
-More information on how to use Sitefinity's cache manager is detailed on:
-http://www.americaneagle.com/blog/blog-detail-page/alex-hawley/2015/06/05/utilizing-cachemanager-in-sitefinity-for-caching-common-data-across-all-pages
-
 ## Installation
 
 Installation requires pulling down this repository, zip, or dll and referencing it by a support Sitefinity version.
-
-Project files and dlls can also be found on the shared drive for Sitefinity's department:
-M:\_Programming\Sitefinity\Standards\CacheService\Libraries
-M:\_Programming\Sitefinity\Standards\CacheService\Projects
 
 ## API Reference
 
@@ -220,7 +213,3 @@ TBD
 
 SiteStack.Sitefinity.CacheService v9.0.6010.0
 - Built on Sitefinity v9.0.6010.0
-
-## Contributors 
-
-Alex Hawley (alex.hawley@americaneagle.com)

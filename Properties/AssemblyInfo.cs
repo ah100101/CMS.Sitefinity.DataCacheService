@@ -1,4 +1,4 @@
-﻿using SiteStack.Sitefinity.CacheService.App_Start;
+﻿using CMS.Sitefinity.CacheService.App_Start;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -7,11 +7,11 @@ using System.Web;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SiteStack.Sitefinity.CacheService")]
+[assembly: AssemblyTitle("CMS.Sitefinity.CacheService")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SiteStack.Sitefinity.CacheService")]
+[assembly: AssemblyProduct("CMS.Sitefinity.CacheService")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

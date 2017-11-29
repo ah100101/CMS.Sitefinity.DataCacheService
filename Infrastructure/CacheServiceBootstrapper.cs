@@ -1,4 +1,4 @@
-﻿using SiteStack.Sitefinity.CacheService.Configuration;
+﻿using CMS.Sitefinity.CacheService.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Telerik.Sitefinity.Configuration;
 
-namespace SiteStack.Sitefinity.CacheService.Infrastructure
+namespace CMS.Sitefinity.CacheService.Infrastructure
 {
     public class CacheServiceBootstrapper
     {

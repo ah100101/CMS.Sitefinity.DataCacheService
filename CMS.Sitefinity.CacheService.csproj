@@ -7,8 +7,8 @@
     <ProjectGuid>{5A826E38-71E8-480C-9551-0CBC1E123835}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SiteStack.Sitefinity.CacheService</RootNamespace>
-    <AssemblyName>SiteStack.Sitefinity.DataCacheService</AssemblyName>
+    <RootNamespace>CMS.Sitefinity.CacheService</RootNamespace>
+    <AssemblyName>CMS.Sitefinity.DataCacheService</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
