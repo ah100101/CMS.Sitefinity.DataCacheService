@@ -205,11 +205,7 @@ This cache service gives the programmer flexibility to use Sitefinity's CacheMan
 
 Installation requires pulling down this repository, zip, or dll and referencing it by a support Sitefinity version.
 
-## API Reference
-
-TBD
-
 ## Supported Versions
 
-SiteStack.Sitefinity.CacheService v9.0.6010.0
+CMS.Sitefinity.CacheService v9.0.6010.0
 - Built on Sitefinity v9.0.6010.0
